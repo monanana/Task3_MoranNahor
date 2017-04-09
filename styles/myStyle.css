@@ -1,0 +1,256 @@
+body {
+    background-image: url('../images/bf2f9b32ef19a990c957e524a5cfa472.jpg');
+    
+    direction: ltr;
+    font-family: 'Century Gothic';
+}
+#container {
+    background-color:white;
+    font-family: 'Century Gothic';
+    width: 960px;
+    margin: 0 auto;
+    border: solid;
+    border-color: lightgray;
+    direction: ltr;
+    color: slategrey;
+    padding: 55px;
+    font-size: 16pt;
+    direction: ltr;
+}
+h1{
+     font-family:'Century Gothic';
+    text-align:center;
+    font-size:50pt;
+    color:lightgray;
+   text-shadow: 2px 2px 2px #575757;
+   
+
+}
+h2{
+     font-family:'Century Gothic';
+    padding:50px;
+    color:grey;
+font-weight:bold;
+text-align:left;
+text-shadow: 1px 3px 1px #C2D1C9;
+margin-top:30px;
+font-size:30pt;
+  
+}
+
+#mypic {
+    background-image: url('../images/profile - Copy.jpg');
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    float: right;
+       -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+    #mypic:hover {
+        background-image: url('../images/profile.jpg');
+        height: 200px;
+        width: 400px;
+        background-repeat: no-repeat;
+        float: right;
+    }
+#facebook {
+   
+    background-image: url('../images/facebook1.jpg');
+    height:100px;
+    width:950px;
+    background-repeat:no-repeat;
+
+}
+
+#mail {
+    background-image: url('../images/mail1.jpg');
+       height:100px;
+    width:800px;
+    background-repeat:no-repeat;
+
+}
+
+#nav2{
+    clear:both;
+    direction:rtl;
+    
+}
+
+#nav2 ul {
+    list-style: none;
+    direction:rtl;
+}
+
+    #nav2 ul li {
+        display: block;
+        width: 120px;
+        direction:rtl;
+      
+    }
+
+        #nav2 ul li a {
+            display: block;
+            background-color: #a3a3a3;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+               font-family:Calibri;
+            font-size: 14px;
+            direction:rtl;
+        }
+
+            #nav2 ul li a:hover {
+                background-color: #e5e5e5;
+            }
+
+            #nav2 ul li a:active {
+                background-color: #ffffff;
+            }
+
+
+        #nav2 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        #nav2 ul li:hover ul {
+            display: block;
+            width: 120px;
+            margin-left: 120px;
+            margin-top: -40px;
+        }
+nav.tabs ul
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+nav.tabs ul li
+{
+    display:inline-block;
+}
+
+nav.tabs ul li a
+{
+    color:gray;
+    text-decoration:none;
+    font-family:Calibri;
+    display:block;
+    width:140px;
+    height:30px;
+    text-align:center;  
+
+    padding-top:10px;
+    background-color:white;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px; 
+}
+
+/* הגדרה לקישור ששם המחלקה שלו הוא נבחר */
+nav.tabs ul li a.selected
+{
+     background-color:#e6b4f7;
+}
+/*הגדרה לקישור במעבר עם העכבר*/
+nav.tabs ul li a:hover
+{
+    background-color:#f3d9fc;
+}
+/*הגדרה לקישור הנבחר - במעבר העכבר, אנו רוצים שהצבע לא ישתנה*/
+nav.tabs ul li a.selected:hover
+{
+    background-color:#dad9db;
+}
+
+nav.tabs ul li a:active
+{
+    background-color:#E8E8E8;
+}
+
+section
+{
+     font-family:'Century Gothic';
+    background-color:white;
+
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px; 
+}
+
+h2
+{
+    padding:0;
+    margin:0;
+}
+#work {
+    background-image: url('../images/work - Copy.jpg');
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    float: right;
+       -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+    #work:hover {
+        background-image: url('../images/work.jpg');
+        height: 200px;
+        width: 400px;
+        background-repeat: no-repeat;
+        float: right;
+    }
+#school {
+    background-image: url('../images/school - Copy.jpg');
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    float: right;
+       -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+    #school:hover {
+        background-image: url('../images/school.jpg');
+        height: 200px;
+        width: 400px;
+        background-repeat: no-repeat;
+        float: right;
+    }
+#hobbie {
+    background-image: url('../images/hob2.jpg');
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    float: right;
+    -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+    #hobbie:hover {
+        background-image: url('../images/hob.jpg');
+        height: 200px;
+        width: 400px;
+        background-repeat: no-repeat;
+        float: right;
+    }
